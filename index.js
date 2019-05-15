@@ -24,7 +24,7 @@ try {
           ).then(result => {
             console.log(
               result.added +
-                "videos added to playlist, " +
+                " videos added to playlist, " +
                 result.error +
                 " not added"
             );

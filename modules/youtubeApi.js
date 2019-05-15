@@ -39,7 +39,7 @@ class YouTubeApi {
 
       // Get auth token from command-line
       const token = await readline.askQuestion(
-        "Please send me auth tokens: \n"
+        "Please send me auth token: \n"
       );
 
       return new Promise((res, rej) => {
